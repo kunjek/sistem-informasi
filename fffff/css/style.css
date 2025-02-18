@@ -1,0 +1,126 @@
+:root {
+    --primary:#818C78;
+    --bg:#fff;
+}
+
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+body {
+    
+    font-family: "Roboto Mono", serif;
+    background-color: var(--bg);
+    color: aliceblue;
+
+}
+
+.navbar  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(5, 116, 79, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    
+}
+
+.navbar .navbar-logo {
+    color: #fff;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.6rem;
+
+}
+
+.navbar .navbar-logo span {
+    color: #fff;
+}
+
+.navbar .navbar-nav a{
+    color: aliceblue;
+    display: inline-block;
+    margin: 0 1.4rem;
+    font-size: 1rem;
+    
+}
+
+.navbar .navbar-nav a:hover {
+    color: black;
+
+}
+
+.navbar .navbar-extra a {
+    color: aliceblue;
+    margin: 0 1.4rem;
+}
+
+.navbar .navbar-extra a:hover {
+    color: black;
+    
+}
+
+/*home section*/
+
+.home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/IMG-20250218-WA0000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 80rem;
+    padding: 1rem 7%;
+}
+
+.home .content h1 {
+    font-size: 4em;
+    color: #fff;
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+.home .content p{
+    font-weight: 300;
+    color: #dbe5e7;
+    line-height: 1.2;
+    text-shadow: #dbe5e7;
+    margin-top: 1rem;
+
+}
+/* MEDIA QUERTID*/
+@MEDIA (max-width: 600px){
+    html{
+        font-size: 70%;
+   } 
+}
+/* LAPTOP*/
+@MEDIA (max-width:600px){
+    html{
+        font-size: 70%
+    }
+    }
+/*LAPTOP*/
+@MEDIA (max-width:300px){
+    html{
+        font-weight: 200;
+    }
+}
+  
+
+
